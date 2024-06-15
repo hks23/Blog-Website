@@ -1,0 +1,20 @@
+ <%- include("partials/header") %>
+
+
+<h1>Compose</h1>
+
+<form class="" action="compose" method="post">
+  <!-- bootstrap added in div , input and textarea -->
+  <div class="form-group">
+    <label> Title</label>
+    <input type="text" class="form-control" name="titleName" value="" autocomplete="off">
+    <label>Post</label>
+    <textarea name="newContent" class="form-control" cols="40" rows="5"></textarea>
+    <button type="submit" name="button" class="btn btn-success">Publish</button>
+
+  </div>
+
+
+</form>
+
+<%- include("partials/footer") %>
